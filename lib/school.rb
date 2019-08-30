@@ -6,5 +6,5 @@ class School
     @name = schoolname
     @roster = {}
   end
-  binding.pry
 end
+  binding.pry
