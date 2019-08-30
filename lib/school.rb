@@ -21,7 +21,6 @@ class School
     @roster[name]
   end
   def sort 
-    
     @roster.collect do |key, array|
      @roster[key] = array.sort
     end
