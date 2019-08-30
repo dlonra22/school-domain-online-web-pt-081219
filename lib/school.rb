@@ -13,4 +13,3 @@ class School
     @roster
   end
 end
-  binding.pry
