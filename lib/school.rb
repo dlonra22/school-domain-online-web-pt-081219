@@ -4,3 +4,4 @@ class School
     @name = schoolname
   end
   ROSTER = {}
+end
