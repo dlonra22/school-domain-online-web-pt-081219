@@ -6,9 +6,7 @@ class School
     @name = schoolname
     @roster = {}
   end
-  def roster=(key)
-    @roster = key
-  end
+  
   def roster
     @roster
   end
