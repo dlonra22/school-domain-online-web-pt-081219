@@ -11,7 +11,7 @@ class School
     @roster
   end
   def add_student(name, grade)
-    if @roster[:grade].length == 0 
+    if @roster[:grade] == nil 
         @roster[:grade] = [name]
       else
         @roster[:grade] << name
