@@ -20,5 +20,8 @@ class School
   def grade(name)
     @roster[name]
   end
-  
+  def sort 
+    @roster.each do |key, array|
+      array.sort
+    end
 end
