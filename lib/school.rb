@@ -24,5 +24,6 @@ class School
     @roster.collect do |key, array|
      @roster[key] = array.sort
     end
+    @roster
   end
 end
